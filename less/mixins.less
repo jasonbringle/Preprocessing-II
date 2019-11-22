@@ -1,13 +1,18 @@
 // Mixins in here
 
 
-.btn-specs(@bg: @button-bg; @ht: 4rem){
+.btn-specs(@bg: @button-bg; @ht: 4rem; @wt: 20rem;){
     background: @bg;
     height: @ht;
+    width:@wt;
     border-radius: 15px;
-    width:20rem;
+    
     font-size: 1.8rem;
     text-align: center;
     color: white;
     padding: 1rem;
+}
+
+.pic-radius(){
+    border-radius: 10px;
 }
